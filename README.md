@@ -26,5 +26,5 @@ $ cd code .
 ## By
 
 
-| [<img src="https://avatars3.githubusercontent.com/u/31235308?s=460&u=f4799cdf05b9188e08c4802f76ee7059fa515c86&v=4 width="150"><br><sub>Vinicius Cesar</sub>](https://github.com/viniciusanchieta) |
+| [<img src="https://avatars3.githubusercontent.com/u/31235308?s=460&u=f4799cdf05b9188e08c4802f76ee7059fa515c86&v=4" width="150"><br><sub>Vinicius Cesar</sub>](https://github.com/viniciusanchieta) |
 | :---: |
