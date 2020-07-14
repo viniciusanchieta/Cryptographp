@@ -1,5 +1,14 @@
 POST http://localhost/Cryptographp/encrypt/ HTTP/1.1
 content-type: application/json
+
 {
     "text": "Como minha formação se concretizou na área de T.I focado em desenvolvimento de sistemas, foquei em conquistar uma visão ampla para criação de aplicações voltadas as necessidades, sempre atuando com automatização, otimização, inovação e pensamento estratégico."
+}
+
+###
+POST http://localhost/Cryptographp/decrypt/ HTTP/1.1
+content-type: application/json
+
+{
+    "encrypt": "pFWqk9pHrdgm5A44shKghXZhyx+4eTysKxlwwSBk1\/0ehbKohdbH5s\/Ry5SPIn8s\/UhH1qMOhQCdLjTj\/0GSn5A6VjsLBtIoDck2rMCjIY33lJDb5Sn1ekJxtCsjsSO8zLjvlwfF6pxKmc6k1F5y8azOp697Wt8GMxDX0m9eIPgda3H7eZUI1Lqtip2PqWKFZZ32TxVVilBuyXRn8rZVsFxvRuTPLt47pLAiZumI3T9J6huZd25HlnGloEEWJRAu+UJxDs51afqGbKsSimsp1dD2EoZAYUvggIxlp3OSw0SF4T+wetzW9WO+PnQYdY7R1XJXI66cQrY+Yl5BDSD80okahrtf9bQiuXPE2t8TdYgt4DkT19q0kaqt8xvAf\/zaoWeHtaJYdMHOaAs0foLHm7ia3\/K96oDxWSACNNvvKpNaa61GpRDDSYtjeChWdWIG"    
 }

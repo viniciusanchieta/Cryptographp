@@ -14,7 +14,7 @@
     
     if (hash_equals($hmac, $calcmac)){
         $arr = array('decrypt' => $original_plaintext, 'return' => true);
-        echo json_encode($arr);
+        echo utf8_decode(json_encode($arr));
     }
     else{
         $arr = array('return' => false);
