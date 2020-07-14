@@ -1,0 +1,6 @@
+POST http://localhost/cryptographp/ HTTP/1.1
+content-type: application/json
+
+{
+    "text": "Assim como tudo na nossa vida, o Design Thinking é movimentado por uma razão: resolver problemas. No mundo atual, as constantes evoluções da tecnologia pedem um modelo de negócios que solucionem os problemas reais de pequenas, médias e grandes organizações no menor tempo possível. O Design Thinking surgiu a partir dessa dor, que busca complementar e entender todos os tipos de problemas que existem nas mais diversas empresas e solucioná-los de uma forma objetiva. Trata-se de uma abordagem criativa e sistêmica para aproveitamento de uma oportunidade a partir experimentação, criação e prototipagem de um produto ou negócio, com o objetivo de se coletar o feedback dos usuários."
+}
