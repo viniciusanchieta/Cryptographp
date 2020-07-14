@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://img.icons8.com/nolan/256/password.png" width="300">
+    <img src="https://img.icons8.com/nolan/256/password.png" width="150">
 </p>
 
 <h1 align="center">Cryptographp</h1>
