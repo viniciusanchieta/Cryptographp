@@ -21,7 +21,7 @@
 $ git clone https://github.com/viniciusanchieta/Cryptographp.git
 $ cd Cryptographp/
 $ cd code .
-
+```
 If you prefer, edit the env.php file as shown below.
 ``` php
     $variables = [
@@ -50,8 +50,6 @@ If you prefer, edit the env.php file as shown below.
             return $value;
         }
     }
-
-```
 ```
 
 ## By
