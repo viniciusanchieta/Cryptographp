@@ -54,6 +54,7 @@ if (!function_exists('env')) {
 Consuming API to encrypt.
 ```php
 $data =  array(
+    //Enter the text to encrypt.
     "text" => "github-viniciusanchieta"
 );
 $cURLConnection = curl_init('http://localhost/Cryptographp/encrypt/');
@@ -72,9 +73,10 @@ if ($return == true) {
 }
 ```
 
-Consumindo API para descriptografar.
+Consuming API to decrypt.
 ```php
 $data =  array(
+    //Enter the encrypted text to decrypt.
     "encrypt" => "+S8w8A74n34IV43kz035KJ0VYQ5CGohLxgEzfxuG5IQlIrNOtoAsLrb0Mn3SQRepbC\/ItlSHvZShxs2a7RXYYmmgI\/e4cd+d+L8De9czM0A="
 );
 $cURLConnection = curl_init('http://localhost/Cryptographp/decrypt/');
