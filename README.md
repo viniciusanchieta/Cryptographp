@@ -58,7 +58,7 @@ $data =  array(
     "text" => "github-viniciusanchieta"
 );
 $cURLConnection = curl_init('http://localhost/Cryptographp/encrypt/');
-curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, $data);
+curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, json_encode($data));
 curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
 $apiResponse = curl_exec($cURLConnection);
 curl_close($cURLConnection);
@@ -80,7 +80,7 @@ $data =  array(
     "encrypt" => "+S8w8A74n34IV43kz035KJ0VYQ5CGohLxgEzfxuG5IQlIrNOtoAsLrb0Mn3SQRepbC\/ItlSHvZShxs2a7RXYYmmgI\/e4cd+d+L8De9czM0A="
 );
 $cURLConnection = curl_init('http://localhost/Cryptographp/decrypt/');
-curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, $data);
+curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, json_encode($data));
 curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
 $apiResponse = curl_exec($cURLConnection);
 curl_close($cURLConnection);
