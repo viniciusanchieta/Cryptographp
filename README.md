@@ -20,7 +20,7 @@
 ```
 $ git clone https://github.com/viniciusanchieta/Cryptographp.git
 $ cd Cryptographp/
-$ cd code .
+$ code .
 ```
 If you prefer, edit the <a href="https://github.com/viniciusanchieta/Cryptographp/blob/master/env.php">env.php</a> file as shown below.
 ``` php
