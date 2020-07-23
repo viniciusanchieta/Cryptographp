@@ -93,9 +93,17 @@ if ($return == true) {
 } else {
     //Insert an action if the API returns false.
 }
+
 ```
+
+## Contributors
+
+
+ |[<img src="https://avatars2.githubusercontent.com/u/28401373?s=400&v=4" width="150"><br><sub>Matheus Lucena</sub>](https://github.com/matheus-gio) |
+| :---: |
+
 ## By
 
 
- |[<img src="https://avatars3.githubusercontent.com/u/31235308?s=460&u=f4799cdf05b9188e08c4802f76ee7059fa515c86&v=4" width="150"><br><sub>Vinicius Cesar</sub>](https://github.com/viniciusanchieta)|[<img src="https://avatars2.githubusercontent.com/u/28401373?s=400&v=4" width="150"><br><sub>Matheus Lucena</sub>](https://github.com/matheus-gio) |
-| :---: | :---: |
+ |[<img src="https://avatars3.githubusercontent.com/u/31235308?s=460&u=f4799cdf05b9188e08c4802f76ee7059fa515c86&v=4" width="150"><br><sub>Vinicius Cesar</sub>](https://github.com/viniciusanchieta)|
+| :---: |
