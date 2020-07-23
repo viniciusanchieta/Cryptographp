@@ -6,7 +6,8 @@
     //AES: Advanced Cryptography Standard. This is the name of the encryption algorithm (symmetric encryption). Other symmetric encryption algorithms are: DES, 3-DES etc.
     //128: This is the key size. AES encryption uses three key sizes (128 bits, 192 bits, and 256 bits). The block size in AES is also 128 bits.
     //CBC: This is the encryption mode you want. There are several encryption modes, which depend on how fast you can query your functional algorithm, parallelism, and security level. Some modes are CBC (Cipher Block Chaining), BCE (Electronic Code Book), CFB (Cipher FeedBack), CTR (Counter), etc.
-    'cipher'=> 'AES-128-CBC'
+    'cipher'=> 'AES-128-CBC',
+    'url' => 'http://localhost'
     ];
 
     foreach ($variables as $key => $value) {
